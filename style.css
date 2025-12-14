@@ -1,0 +1,33 @@
+button {
+    width: 87px;
+    height: 87px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ff5c30;
+    font-size: 3rem;
+    cursor: pointer;
+    margin: 7px auto auto -3px;
+}
+
+#calculator {
+    align-content: top;
+    border-radius: 30px;
+    background-color: rgb(77, 75, 75);
+    max-width: 480px;
+    margin: auto;
+}
+
+#display {
+    border: 8px outset rgb(77, 75, 75);
+    width: 400px;
+    padding: 1px;
+    font-size: 5rem;
+    text-align: left;
+}
+
+.keys {
+    margin: 20px 40px 20px;
+    align-content: left;
+    display: flex;
+    flex-wrap: wrap;
+}
